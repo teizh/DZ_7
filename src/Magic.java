@@ -1,4 +1,4 @@
-public class Magic extends Hero implements HavingSuperAbility {
+public class Magic extends Hero {
     @Override
     public void applySuperAbility() {
         System.out.println("Magic применил суперспособность DIVINE FORCE");
