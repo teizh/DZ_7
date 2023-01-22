@@ -5,15 +5,15 @@ public class Main {
         Hero[] heroes = {new Magic(), new Medic(),
                 new Warrior()};
 
-        for (int i = 0; i < heroes.length; i++) {
-            ((Hero) heroes[i]).applySuperAbility();
-            if (heroes[i] instanceof Medic) {
-                ((Medic) heroes[i]).increaseExperience();
+        for (Hero hero : heroes) {
+            ((Hero) hero).applySuperAbility();
+            if (hero instanceof Medic) {
+                ((Medic) hero).increaseExperience();
+
             }
+
 
         }
 
-
     }
-
 }

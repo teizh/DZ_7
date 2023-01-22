@@ -5,5 +5,5 @@ public abstract class Hero implements HavingSuperAbility{
     private String superAbility;
 
 
-    public abstract void increaseExperience();
+/*    public abstract void increaseExperience();*/
 }

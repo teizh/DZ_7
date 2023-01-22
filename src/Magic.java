@@ -4,8 +4,8 @@ public class Magic extends Hero {
         System.out.println("Magic применил суперспособность DIVINE FORCE");
     }
 
-    @Override
+   /* @Override
     public void increaseExperience() {
         System.out.println("Герой Magic получил опыт!");
-    }
+    }*/
 }

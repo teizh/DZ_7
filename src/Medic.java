@@ -7,7 +7,7 @@ public class Medic extends Hero {
     }
 
 
-    @Override
+
     public void increaseExperience() {
         healPoints = healPoints * (1.1);
         System.out.println("Герой Medic получил опыт!");

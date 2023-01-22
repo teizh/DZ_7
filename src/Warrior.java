@@ -4,8 +4,8 @@ public class Warrior extends Hero {
         System.out.println("Warrior применил суперспособность CRITICAL DAMAGE");
     }
 
-    @Override
+/*    @Override
     public void increaseExperience() {
         System.out.println("Герой Warrior получил опыт!");
-    }
+    }*/
 }
