@@ -1,4 +1,4 @@
-public class Medic extends Hero {
+public class Medic extends Hero implements HavingSuperAbility {
     public double healPoints;
 
     @Override
